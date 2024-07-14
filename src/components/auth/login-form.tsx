@@ -14,9 +14,9 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useState, useTransition } from "react";
 import { useForm } from "react-hook-form";
 import * as z from "zod";
-import { FormError } from "../../form-error";
-import { FormSuccess } from "../../form-success";
-import { Button } from "../../ui/button";
+import { FormError } from "../form-error";
+import { FormSuccess } from "../form-success";
+import { Button } from "../ui/button";
 import { CardWrapper } from "./card-wrapper";
 export const LoginForm = () => {
   const [error, setError] = useState<string | undefined>("");
